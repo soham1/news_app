@@ -1,24 +1,34 @@
-# README
+# Simple News Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Just a project to showcase my understanding of how to use Ruby and Rails! 
+It uses Devise for user authentication, and stores all data in MySQL.
 
-Things you may want to cover:
+## Screenshots
 
-* Ruby version
+Landing Page:
 
-* System dependencies
+![](doc/home.png)
 
-* Configuration
+Sign In:
 
-* Database creation
+![](doc/log_in.png)
 
-* Database initialization
+Sign Up:
 
-* How to run the test suite
+![](doc/sign_up.png)
 
-* Services (job queues, cache servers, search engines, etc.)
+Successful Sign In:
 
-* Deployment instructions
+![](doc/successful_sign_in.png)
 
-* ...
+Creating News:
+
+![](doc/create_news.png)
+
+News Listing:
+
+![](doc/news_listing.png)
+
+Editing News:
+
+![](doc/edit_news.png)

@@ -6,14 +6,7 @@ class NewsController < ApplicationController
     end
 
     def new
-        #@news = News.new()
         @news = current_user.news.build
-        #TODO: REMOVE TEST VALUES!#
-        @news.title = "AB"
-        @news.summary = "AB"
-        @news.text = "AB" 
-        @news.date = "01/02/2017"
-        @news.online = true
     end
 
     def edit
@@ -25,8 +18,6 @@ class NewsController < ApplicationController
     end
 
     def create
-        #@news = News.new(news_params)
-
         @news = current_user.news.build(news_params)
 
         @news.save
