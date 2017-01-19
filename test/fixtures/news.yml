@@ -1,15 +1,10 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  text: MyText
-  summary: MyText
+  title: ABC
+  text: DEF
+  summary: GHI
   date: 2017-01-13
   online: false
-
-two:
-  title: MyString
-  text: MyText
-  summary: MyText
-  date: 2017-01-13
-  online: false
+  user_id: 1
+  id: 1
